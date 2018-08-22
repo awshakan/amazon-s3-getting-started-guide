@@ -1,4 +1,6 @@
-## Amazon S3 Getting Started Guide
+## Amazon S3 Hızlı Başlangıç Kılavuzu
+
+Turkish Language Translation.
 
 The open source version of the Amazon S3 docs. You can submit feedback & requests for changes by submitting issues in this repo or by making proposed changes & submitting a pull request.
 

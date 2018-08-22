@@ -1,4 +1,4 @@
-# Amazon Simple Storage Service Getting Started Guide
+# Amazon Simple Storage Service Başlangıç Kılavuzu
 
 -----
 *****Copyright &copy; 2018 Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
@@ -13,19 +13,19 @@ Amazon's trademarks and trade dress may not be used in
      sponsored by Amazon.
 
 -----
-## Contents
-+ [Getting Started with Amazon Simple Storage Service](GetStartedWithS3.md)
-   + [Amazon S3 Basics](AmazonS3Basics.md)
-+ [Sign Up for Amazon S3](SigningUpforS3.md)
-+ [Create a Bucket](CreatingABucket.md)
-+ [Add an Object to a Bucket](PuttingAnObjectInABucket.md)
-+ [View an Object](OpeningAnObject.md)
-+ [Move an Object](CopyingAnObject.md)
-+ [Delete an Object and Bucket](DeletingAnObjectandBucket.md)
+## İçerik
++ [Amazon Simple Storage Servislerine Başlarken](GetStartedWithS3.md)
+   + [Amazon S3 Giriş](AmazonS3Basics.md)
++ [Amazon S3 Kayıt işlemi](SigningUpforS3.md)
++ [Klasör Yaratmak](CreatingABucket.md)
++ [Klasör içerisine nesne eklemek](PuttingAnObjectInABucket.md)
++ [Nesnegörüntülemek](OpeningAnObject.md)
++ [Nesne Taşımak](CopyingAnObject.md)
++ Nesne yada klasör silmek](DeletingAnObjectandBucket.md)
 + [Where Do I Go From Here?](ImplementingS3.md)
-   + [Common Use Scenarios](S3-gsg-CommonUseScenarios.md)
+   + [Yaygın Kullanım Alanları](S3-gsg-CommonUseScenarios.md)
    + [Considerations Going Forward](s3-gsg-ConsiderationsGoingForward.md)
-   + [Advanced Amazon S3 Features](S3-gsg-AdvancedAmazonS3Features.md)
-   + [Development Resources](S3-gsg-DevelopmentResources.md)
-   + [Reference Resources](S3-gsg-ReferenceResources.md)
-+ [About This Guide](AboutThisGuide.md)
+   + [Gelişmiş Amazon S3 Özellikleri](S3-gsg-AdvancedAmazonS3Features.md)
+   + [Geliştirme Kaynakları](S3-gsg-DevelopmentResources.md)
+   + [Refereans Kaynakları](S3-gsg-ReferenceResources.md)
++ [Kılavuz Hakkında](AboutThisGuide.md)

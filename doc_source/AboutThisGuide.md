@@ -1,5 +1,5 @@
-# About This Guide<a name="AboutThisGuide"></a>
+# Kılavuz Hakkında<a name="AboutThisGuide"></a>
 
 This is the *Amazon Simple Storage Service Getting Started Guide*\.
 
-Amazon Simple Storage Service is frequently referred to within this guide as "Amazon S3\." All copyrights and legal protections still apply\.
+Amazon Simple Storage Service bu kılavuz içerisinde sıklıkla "Amazon S3\." olarak geçer. All copyrights and legal protections still apply\.

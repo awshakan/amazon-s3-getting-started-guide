@@ -1,10 +1,10 @@
-# Amazon S3 Basics<a name="AmazonS3Basics"></a>
+# Amazon S3 Temelleri<a name="AmazonS3Basics"></a>
 
-To get the most out of Amazon S3, you need to understand a few simple concepts\. Amazon S3 stores data as objects within buckets\. An object consists of a file and optionally any metadata that describes that file\. 
+Amazon S3 kullanmaya başlamadan önce bazı temel konularda bilgi sahibi olmalısınız. Amazon S3 içerisinde verileriniz nesne olarak klasörler içerisinde barındırılır. Bu nesne herhangi bir veri yada bu veriyi tarif eden metadata dosyası olabilir.
 
-To store an object in Amazon S3, you upload the file you want to store to a bucket\. When you upload a file, you can set permissions on the object as well as any metadata\. 
+Amazon S3 içerisinde verilerinizi saklamak için nesnelerinizi klasörlere yüklemeniz gerekmektedir. Nesneler klasörlere yüklendikten sonra bu dosyalar üzerinde yetkileri ve metadata düzenlemelerini yapabilirsiniz.
 
-Buckets are the containers for objects\. You can have one or more buckets\. For each bucket, you can control access to it \(who can create, delete, and list objects in the bucket\), view access logs for it and its objects, and choose the geographical region where Amazon S3 will store the bucket and its contents\.
+Klasörler nesneleri içerisinde barındıran alanlardır. Bir yada birden fazla sayıda klasör oluşturabilirsiniz. Her bir klasör üzerinde farklı erişim denetimleri (kim oluşturdu, sildi, listeledi vs.) yaratabilirsiniz. Ayrıca klasörlerinizi AWS altyapısının bulunduğu arzu ettiğiniz bir bölgede saklanmasını sağlayabilirsiniz.
 
-To start, click the following **Get Started** button\.
+Başlamak için aşağıdaki **Get Started** \ kısmına tıklayınız.
 

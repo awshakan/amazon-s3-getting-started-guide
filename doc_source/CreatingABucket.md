@@ -1,13 +1,14 @@
-# Create a Bucket<a name="CreatingABucket"></a>
+# Klasör Oluşturma<a name="CreatingABucket"></a>
 
 
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/AmazonS3/latest/gsg/)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/AmazonS3/latest/gsg/)
 
-Now that you've signed up for Amazon S3, you're ready to create a bucket using the AWS Management Console\. Every object in Amazon S3 is stored in a bucket\. Before you can store data in Amazon S3, you must create a bucket\. 
+AWS Hesabınızı oluşturduğunuza göre şimdi AWS Yönetin Konsolu kullanarak yeni bir klasör yaratmaya hazırsınız. Amazon S3 içerisiğinde bulunan her bir nesne mutlaka bir klasör içinde depolanır. Bu yüzden herhangi bir nesneyi depolamadan önce mutlaka bir klasör yaratmalıyız.
 
-**Note**  
-You are not charged for creating a bucket; you are charged only for storing objects in the bucket and for transferring objects in and out of the bucket\. The charges you will incur through following the examples in this guide are minimal \(less than $1\)\. For more information about storage charges, see [Amazon S3 Pricing](https://aws.amazon.com/s3/pricing/)\.
+**Not**  
+
+Klasör yaratmanın herhangi bir maliyeti yoktur. Amazon S3 içerisinde verilerinini depolamadığınız yada klasörünüz içine yada dışına herhangi bir transfer işlemi gerçekleştirmediğiniz sürece Amazon S3 herhangi bir ücretlendirme yapmayacaktır. Yapacağımız bu işlemlerde çok düşük bir miktarda ücretlendirme olabilir \($1 dan az\)\. Amazon S3 fiyatlandırması ile alakalı daha detaylı bilgi için bu sayfayı ziyaret ediniz.  [Amazon S3 Fiyatlandırma](https://aws.amazon.com/s3/pricing/)\.
 
 **To create an S3 bucket**
 

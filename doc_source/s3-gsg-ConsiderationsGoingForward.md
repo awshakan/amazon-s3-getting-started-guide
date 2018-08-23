@@ -6,23 +6,27 @@
 + [AWS Integration](#s3-gsg-AWSIntegration)
 + [Pricing](#s3-gsg-Pricing)
 
+Bu bölüm AWS S3 servisi kullanmaya başlayacak kişilerin dikkat etmesi gereken konuları işlemektedir.
+
 This section introduces you to topics you should consider before launching your own Amazon S3 product\.
 
-## AWS Account and Security Credentials<a name="iam-about-shared"></a>
+## AWS Hesabı ve Güvenlik <a name="iam-about-shared"></a>
 
-When you signed up for the service, you created an AWS account using an email address and password\. Those are your AWS account root user credentials\. As a best practice, you should not use your AWS account root user credentials to access AWS\. Nor should you give your credentials to anyone else\. Instead, create individual users for those who needs access to your AWS account\. Create an AWS Identity and Access Management \(IAM\) user for yourself as well, give that user administrative privileges, and use that IAM user for all your work\. For information about how to do this, see [Creating Your First IAM Admin User and Group](http://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-admin-group.html) in the *IAM User Guide*\.
+AWS kayıt işlemleri sırasında kullandığınız eposta adresi ve parola sizin hesabınıza ait kök kullanıcı hesabıdır. AWS kök kullanıcı hesabını günlük rutin işlemler için kullanmak yerine bu işler için başka bir hesap kullanmanızı ve kök hesap bilgilerini başkasıyla asla paylamamanızı önerir.  Yönetici kullanıcılar için dahi IAM servisi üzerinden yönetici hesabı açılması ve bütün düzenlemelerin bu işler üzerinden gerçekleştirilmesi önerilir. Daha fazla bilgi için : [İlk yönetici hesabını ve grubunu oluşturmak](http://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-admin-group.html) *IAM User Guide*\.
 
-If you're an account owner or administrator and want to know more about IAM, see the product description at [https://aws\.amazon\.com/iam](https://aws.amazon.com/iam) or the technical documentation in the [IAM User Guide](http://docs.aws.amazon.com/IAM/latest/UserGuide/)\.
 
-## Security<a name="s3-gsg-Security"></a>
+Eğer hesabın sahibi yada yönetiyseniz ve IAM hakkında fazla fazla bilgi edinmek istiyorsanız 
+ [https://aws\.amazon\.com/iam](https://aws.amazon.com/iam) yada teknik dökümanlar için [IAM User Guide](http://docs.aws.amazon.com/IAM/latest/UserGuide/)\.
 
-Amazon S3 provides authentication mechanisms to secure data stored in Amazon S3 against unauthorized access\. Unless you specify otherwise, only the AWS account owner can access data uploaded to Amazon S3\. For more information about how to manage access to buckets and objects, go to [Managing Access Permissions to Your Amazon S3 Resources](http://docs.aws.amazon.com/AmazonS3/latest/dev/s3-access-control.html) in the *Amazon Simple Storage Service Developer Guide*\. 
+## Güvenlik<a name="s3-gsg-Security"></a>
 
-You can also encrypt your data before uploading it to Amazon S3\.
+Amazon S3 servisinde verilen güvenli şekilde saklanması için gelişmiş bir kimlik doğrulama sistemi mevcuttur. Siz aksini özellikle ayarlamadığınız şekilde sadece AWS hesabının sahibi Amazon S3 klasörlerine ulaşabilir. Klasörlerin erişim yetkilerini nasıl düzenleyebileceğiniz hakkında daha fazla bilgi edinmek için [Managing Access Permissions to Your Amazon S3 Resources](http://docs.aws.amazon.com/AmazonS3/latest/dev/s3-access-control.html) 
 
-## AWS Integration<a name="s3-gsg-AWSIntegration"></a>
+Aynı zamanda isterseniz verilerinizi Amazon S3 üzerine yüklemeden önce şifreleyebilirsiniz.
 
-You can use Amazon S3 alone or in concert with one or more other Amazon products\. The most common products used with Amazon S3 are:
+## AWS Entegrasyonu<a name="s3-gsg-AWSIntegration"></a>
+
+AWS S3 servini tek başına yada gerektiği zaman diğer AWS servisleri ile beraber kullanabilirsiniz. Amazon S3 servisinin en sık birlikte kullanıldığı diğer ürünler:
 
 + [Amazon EC2](https://aws.amazon.com/ec2/)
 
@@ -34,6 +38,6 @@ You can use Amazon S3 alone or in concert with one or more other Amazon products
 
 + [Amazon DevPay](https://aws.amazon.com/devpay/)
 
-## Pricing<a name="s3-gsg-Pricing"></a>
+## Ücretlendirme<a name="s3-gsg-Pricing"></a>
 
-Learn the pricing structure for storing and transferring data on Amazon S3\. For more information, see [Amazon S3 Pricing](https://aws.amazon.com/s3/pricing/)\.
+Amazon S3 üzerine veri depolama ve veri transferi ile alakalı ücretlendirme politikası hakkında bilgi alınız. Bu konu hakkında daha fazla bilgi edinmek isterseniz. [Amazon S3 Pricing](https://aws.amazon.com/s3/pricing/)\.

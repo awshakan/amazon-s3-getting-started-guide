@@ -1,4 +1,4 @@
-# View an Object<a name="OpeningAnObject"></a>
+# Nesneyi Görüntülemek<a name="OpeningAnObject"></a>
 
 
 

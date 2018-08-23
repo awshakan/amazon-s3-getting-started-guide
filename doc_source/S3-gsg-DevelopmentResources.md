@@ -1,15 +1,16 @@
-# Development Resources<a name="S3-gsg-DevelopmentResources"></a>
+# Geliştirici Kaynakları<a name="S3-gsg-DevelopmentResources"></a>
 
-To help you build applications using the language of your choice, we provide the following resources:
+Dilediğiniz dili kullanılarak uygulama geliştirmenizde yardımcı olabilecek kaynaklar aşağıda sunulmuştur.
 
-+ **Sample Code and Libraries** – The AWS Resource Center has sample code and libraries written especially for Amazon S3\.
 
-  You can use these code samples as a means of understanding how to implement the Amazon S3 API\. For more information, go to [https://aws\.amazon\.com/code/Amazon\-S3](https://aws.amazon.com/code/Amazon-S3)\. 
++ **Örnek Kod Kütüphaneleri** – The AWS Resource Center özellikle Amazon S3 servisi için kullanılabilecek örnek kod ve kütüphaneleri barındırır.
 
-+ **Tutorials** – Our Resource Center also offers more Amazon S3 tutorials\.
+  Bu örnek kodlar Amason S3 API servisini mevcut yapınıza nasıl entregre edebileceğinizi anlamanızda yardımcı olacaktır. Daha fazla bilgi için [https://aws\.amazon\.com/code/Amazon\-S3](https://aws.amazon.com/code/Amazon-S3)\. 
 
-  These tutorials provide a hands\-on approach for learning Amazon S3 functionality\. For more information, go to [https://aws\.amazon\.com/articles/Amazon\-S3](https://aws.amazon.com/articles/Amazon-S3)\.
++ **Uygulamalı Örnekler** – Our Resource Center Ayrıca uygulamalı Amazon S3 örnekleri sunmaktadır.
 
-+ **Customer Forum** – We recommend you review the Amazon S3 forum to get an idea of what other users are doing and to benefit from the questions they've asked\.
+ Bu uygulamalı örnekler sayesinde Amazon S3 özelliklerini deneyerek daha iyi anlayabilirsiniz. Daha fazla bilgi için[https://aws\.amazon\.com/articles/Amazon\-S3](https://aws.amazon.com/articles/Amazon-S3)\.
 
-  The forum can help you understand what you can and can't do with Amazon S3\. The forum also serves as a place for you to ask questions that other users or Amazon representatives might answer\. You can use the forum to report issues with the service or the API\. For more information, go to [Discussion Forum](https://forums.aws.amazon.com/)\.
++ **Müşteri Forumu** – Amazon S3 forumlarını kulanarak diğer kullanıcıların sordukları sorulardan bu hizmet nasıl kullandıklarını ve hangi şekilde yararlanmaya çalıştıklarını anlamaya çalışmanızı öneririz.
+
+   Forum Amazon S3 ile neler yapıp neler yapmamayacağınızı anlamanıza yardımcı olacaktır. Forum aynı zamanda diğer kullanıcılara ve Amazon temsilcilerine soru sormanızı sağlayan bir platformdur. Daha fazla bilgi için forumlara gidiniz. [Discussion Forum](https://forums.aws.amazon.com/)\.

@@ -1,10 +1,10 @@
-# Common Use Scenarios<a name="S3-gsg-CommonUseScenarios"></a>
+# Sık Kullanım Alanları<a name="S3-gsg-CommonUseScenarios"></a>
 
-The AWS Solutions web page lists many of the ways you can use Amazon S3\. The following list summarizes some of those ways\.
 
-+ **Backup and Storage** – Provide data backup and storage services for others\.
+The AWS Solutions web sayfası üzerinden Amazon S3 servisleri hangi alanlarda kullanabileceğinize dair detaylı bilgi alabilirsiniz. Aşağıdaki listede sık kullanım alanlarından bazıları listelenmiştir.
 
-+ **Application Hosting** – Provide services that deploy, install, and manage web applications\.
++ **Yedekleme ve Depolama** –  Yedekleme ve depolama çözümü sunlar. 
++ **Uygulama Barındırma** – Provide services that deploy, install, and manage web applications\.
 
 + **Media Hosting** – Build a redundant, scalable, and highly available infrastructure that hosts video, photo, or music uploads and downloads\.
 

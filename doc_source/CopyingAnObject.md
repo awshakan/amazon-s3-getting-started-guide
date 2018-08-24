@@ -1,28 +1,25 @@
-# Move an Object<a name="CopyingAnObject"></a>
+# Nesne Taşıma<a name="CopyingAnObject"></a>
 
 
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/AmazonS3/latest/gsg/)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/AmazonS3/latest/gsg/)
 
-So far you've added an object to a bucket and downloaded the object\. Now we create a folder and copy the object into the folder\.
+Şu ana kadar klasörümüze bir nestene ekledik ve nesnemizi klasörden indirdik. Şimdi ise yeni bir alt klasör yaratıp nesneyi bir klasörden diğer bir klalasöre taşıyacağız.
 
-**To copy an object**
+**Nesneyi Kopyalama**
 
-1. In the **Bucket name** list, choose the name of the bucket that you created\.  
+1.  **Klasör İsmi** listesinde, daha önce oluşturduğunuz ana klasörü seçiniz.\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/AmazonS3/latest/gsg/images/choose-bucket-name.png)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/AmazonS3/latest/gsg/)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/AmazonS3/latest/gsg/)
 
-1. Choose **Create Folder**, type **favorite\-pics** for the folder name, and then choose **Save**\.  
+1. **Yeni Klasör**, bölümüne tıklayınız. İsmini**favorite\-pics** olarak tanımlayınız ve **Kaydet** tuşuna basınız.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/AmazonS3/latest/gsg/images/choose-create-folder.png)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/AmazonS3/latest/gsg/)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/AmazonS3/latest/gsg/)
 
-1. In the **Name** list, select the check box next to the object that you want to copy, choose **More**, and then choose **Copy**\.  
+1. **Nesne** leri gördüğünüz listeden kopyalamak istediğiniz nesneyi seçiniz. İlk olarak**Daha**, daha sonra ise **Kopyala**\ tuşuna tıklayınız.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/AmazonS3/latest/gsg/images/objects-copy.png)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/AmazonS3/latest/gsg/)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/AmazonS3/latest/gsg/)
 
-1. In the **Name** list, choose the name of the folder **favorite\-pics**\.  
+1. Ana dizinden **favorite\-pics**\.  isimli klasörü seçiniz.
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/AmazonS3/latest/gsg/images/choose-folder-name.png)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/AmazonS3/latest/gsg/)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/AmazonS3/latest/gsg/)
 
-1. Choose **More**, and then choose **Paste**\.  
+1.**Daha** kısmına tıkladıktan sonra,**Yapıştır**\. seçiniz.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/AmazonS3/latest/gsg/images/more-menu-paste.png)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/AmazonS3/latest/gsg/)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/AmazonS3/latest/gsg/images/more-menu-paste.png)
-
-1. Choose **Paste**\.  
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/AmazonS3/latest/gsg/images/copy-and-paste.png)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/AmazonS3/latest/gsg/)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/AmazonS3/latest/gsg/)
 

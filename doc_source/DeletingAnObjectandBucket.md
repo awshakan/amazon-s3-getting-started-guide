@@ -1,14 +1,14 @@
-# Delete an Object and Bucket<a name="DeletingAnObjectandBucket"></a>
+# Nesne ve Klasör Silmek<a name="DeletingAnObjectandBucket"></a>
 
 
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/AmazonS3/latest/gsg/)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/AmazonS3/latest/gsg/)
 
-If you no longer need to store the object that you uploaded and made a copy of while going through this guide, you should delete the objects to prevent further charges\.
+Daha önce yüklediğiniz yüklediğimiz ve daha sonra bir kopyasını oluşturduğumuz nesnelere artık ihtiyacımız yoksa bunları silebilir.
 
-You can delete the objects individually\. Or you can empty a bucket, which deletes all the objects in the bucket without deleting the bucket\. 
+Klasör içerisindeki nesleleri ayrı ayrı silebilir yada dilersek komple klasör içini boşaltabiliriz.
 
-You can also delete a bucket and all the objects contained in the bucket\. However, if you want to continue to use the same bucket name, don't delete the bucket\. We recommend that you empty the bucket and keep it\. After a bucket is deleted, the name becomes available to reuse, but the name might not be available for you to reuse for various reasons\. For example, it might take some time before the name can be reused and some other account could create a bucket with that name before you do\.
+Ayrıca içerisinde bulunan bütün objelerle beraber ana klasörü de tamamen silebiliriz. Ancak eğer aynı ana klasör ismini kullanmaya devam etmek istiyorsanız dosyayı silmeyiniz. Biz ana klasörü silmek yerine içeriğinin boşaltılıp boş olarak saklanmasını öneririz. Bir ana klasör silindiğinde başka kullanıcılar tarafından tekrar kullanılabilir hale ancak bazı sebeplerden dolayı sizin tarafınızdan kullanılamayacak hala gelebilir. Örnek olarak siz aynı ana klasörü tekrar yaratana kadar başka bir kullanıcı aynı ismi kayıt altına alabilir.
 
 **To delete an object from a bucket**
 

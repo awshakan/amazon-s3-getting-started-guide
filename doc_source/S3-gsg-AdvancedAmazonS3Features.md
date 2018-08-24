@@ -1,9 +1,9 @@
-# Advanced Amazon S3 Features<a name="S3-gsg-AdvancedAmazonS3Features"></a>
+# Gelişmiş Amazon S3 Özellikleri s<a name="S3-gsg-AdvancedAmazonS3Features"></a>
 
-The examples in this guide show how to accomplish the basic tasks of creating a bucket, uploading and downloading data to and from it, and moving and deleting the data\. The following table summarizes some of the most common advanced functionality offered by Amazon S3\. Note that some advanced functionality is not available in the AWS Management Console and requires that you to use the Amazon S3 API\. All advanced functionality and how to use it is described in the [Amazon Simple Storage Service Developer Guide](http://docs.aws.amazon.com/AmazonS3/latest/dev/)\.
+Bu klavuzda yer alan örnekerde, klasör yaratma, klasöre nesne yüklemek, nesneyi indirmek, silmek ve başka bir yere kopyalamak gibi basit işlemleri anlatmaktadır. Aşağıdaki tabloda Amazson S3'ün daha gelişmiştir özellikerleri gösterilmektedir. Gösterilen bazı özelliklerin AWS Yönetim konsounda yer almayabileceği sadece S3 API üzerinden kullanılabileceği unutulmamalıdır. Bütün gelişmiş özellikleri ve nasıl kullanıldığına dair daha fazla bilgi için [Amazon Simple Storage Service Developer Guide](http://docs.aws.amazon.com/AmazonS3/latest/dev/)\.
 
 
-| Link | Functionality | 
+| Bağlantı | Özellik | 
 | --- | --- | 
 | [Using Amazon DevPay with Amazon S3](http://docs.aws.amazon.com/AmazonS3/latest/dev/UsingDevPay.html) | Learn how you can use Amazon DevPay to charge customers that access the data you store on Amazon S3\.  | 
 | [Requester Pays Buckets](http://docs.aws.amazon.com/AmazonS3/latest/dev/RequesterPaysBuckets.html) | Learn how to configure a bucket so that a customer pays for the downloads they make\.  | 
